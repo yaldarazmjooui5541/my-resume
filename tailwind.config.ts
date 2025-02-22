@@ -18,6 +18,9 @@ export default {
           light: '#000000',
           dark: '#ffffff',
         },
+        screens: {
+          'xs': {'max': '550px'},
+        },
       },
       backgroundColor: {
         primary: 'rgb(var(--color-background))',

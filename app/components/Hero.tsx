@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center py-20">
       {/* Background Effects */}
-      <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-purple-600/5 dark:bg-purple-600/10 rounded-full filter blur-3xl animate-pulse" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-indigo-600/5 dark:bg-indigo-600/10 rounded-full filter blur-3xl animate-pulse delay-700" />
+      <div className="absolute top-1/3 left-1/4 w-10 h-10 md:w-96 md:h-96 bg-purple-600/5 dark:bg-purple-600/10 rounded-full filter blur-3xl animate-pulse" />
+      <div className="absolute bottom-1/4 right-1/4 w-10 h-10 md:w-80 md:h-80 bg-indigo-600/5 dark:bg-indigo-600/10 rounded-full filter blur-3xl animate-pulse delay-700" />
 
       {/* Main Content */}
       <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">

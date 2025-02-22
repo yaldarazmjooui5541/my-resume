@@ -50,8 +50,6 @@ const skillCategories = [
 export default function Skills() {
   return (
     <section id="skills" className="relative py-20 bg-white dark:bg-black">
-      {/* Background Effects */}
-      <div className="absolute top-1/2 -left-1/4 w-96 h-96 bg-purple-600/5 dark:bg-purple-600/10 rounded-full filter blur-3xl" />
       <div className="absolute top-0 right-0 w-full h-96 bg-gradient-to-b from-purple-100/20 dark:from-purple-900/20 via-transparent to-transparent" />
       
       <div className="container max-w-7xl mx-auto px-8 lg:px-12 relative z-10">
