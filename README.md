@@ -1,6 +1,7 @@
 # Nextjs Portfolio Template
 
-![Portfolio Preview](Images/preview.png)
+![Portfolio Preview](https://github.com/user-attachments/assets/e55f24f7-1e84-4951-8d5d-6cbe5006b978)
+
 
 A modern, responsive portfolio template built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Perfect for developers looking to showcase their work with style.
 
