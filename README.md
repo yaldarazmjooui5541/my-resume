@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nextjs Portfolio Template
 
-## Getting Started
+![Portfolio Preview](Images/preview.png)
 
-First, run the development server:
+A modern, responsive portfolio template built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Perfect for developers looking to showcase their work with style.
 
+## ✨ Features
+
+- 🌓 Dark/Light mode with smooth transitions
+- 📱 Fully responsive design
+- 🎯 Modern UI/UX with attention to detail
+- 🚀 Optimized performance
+- ⚡ Fast page loads with Next.js 14
+- 💫 Smooth animations with Framer Motion
+- 🎨 Customizable styling with Tailwind CSS
+- 📝 Easy to modify and maintain
+- 🌟 SEO friendly
+
+## 🔥 Sections
+
+- ⭐ Hero Section with animated text
+- 👤 About Section with skills showcase
+- 🛠️ Skills Section with progress bars
+- 💻 Projects Section with dynamic cards
+- 🎨 Modern Navigation with mobile menu
+
+## 🚀 Tech Stack
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Next Themes
+
+## 📋 Prerequisites
+
+- Node.js 18+ 
+- npm or yarn or pnpm
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/vinodjangid07/next-portfolio-template.git
+```
+
+2. Navigate to the project:
+```bash
+cd next-portfolio-template
+```
+
+3. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+4. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Update Personal Information
 
-## Learn More
+- Edit your details
+- Modify social links in
+- Add your projects
 
-To learn more about Next.js, take a look at the following resources:
+### Styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Colors and theme: `tailwind.config.ts`
+- Global styles: `app/globals.css`
+- Component styles: respective component files
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Images
 
-## Deploy on Vercel
+Replace images in `public/images/` with your own:
+- `me.png` - Your profile picture
+- `projects/*.jpg` - Project thumbnails
+- `preview.png` - Portfolio preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚡ Performance Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Optimized images using next/image
+- Smooth animations with Framer Motion
+- Responsive design for all devices
+- Dark/Light mode with system preference
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Vinod Jangid**
+- Portfolio: [www.vinodjangid.site](https://www.vinodjangid.site)
+- GitHub: [@vinodjangid07](https://github.com/vinodjangid07)
+
+## ⭐ Support
+
+If you like this portfolio template, please give it a star ⭐️ to show your support.
+
+## 📧 Contact
+
+For questions, feedback, or support:
+- Email: [infovinodjangid@gmail.com](mailto:infovinodjangid@gmail.com)

@@ -6,12 +6,34 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: {
+          light: '#ffffff',
+          dark: '#000000',
+        },
+        foreground: {
+          light: '#000000',
+          dark: '#ffffff',
+        },
       },
+      backgroundColor: {
+        primary: 'rgb(var(--color-background))',
+      },
+      textColor: {
+        primary: 'rgb(var(--color-foreground))',
+      },
+      keyframes: {
+        shimmer: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(100%)' }
+        }
+      },
+      animation: {
+        shimmer: 'shimmer 2s infinite'
+      }
     },
   },
   plugins: [],
