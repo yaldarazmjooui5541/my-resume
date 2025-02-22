@@ -3,7 +3,7 @@
 ![Portfolio Preview](https://github.com/user-attachments/assets/e55f24f7-1e84-4951-8d5d-6cbe5006b978)
 
 
-A modern, responsive portfolio template built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. Perfect for developers looking to showcase their work with style.
+A modern, responsive portfolio template built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion. Perfect for developers looking to showcase their work with style.
 
 ## ✨ Features
 
@@ -11,7 +11,7 @@ A modern, responsive portfolio template built with Next.js 14, TypeScript, Tailw
 - 📱 Fully responsive design
 - 🎯 Modern UI/UX with attention to detail
 - 🚀 Optimized performance
-- ⚡ Fast page loads with Next.js 14
+- ⚡ Fast page loads with Next.js 15
 - 💫 Smooth animations with Framer Motion
 - 🎨 Customizable styling with Tailwind CSS
 - 📝 Easy to modify and maintain
@@ -27,7 +27,7 @@ A modern, responsive portfolio template built with Next.js 14, TypeScript, Tailw
 
 ## 🚀 Tech Stack
 
-- Next.js 14
+- Next.js 15
 - TypeScript
 - Tailwind CSS
 - Framer Motion
