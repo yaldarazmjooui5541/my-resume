@@ -48,18 +48,18 @@ export default function About() {
 
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p>
-                Hello! I'm Arthur Morgan, a Full Stack Developer with 5 years of experience
+                Hello! I&apos;m Arthur Morgan, a Full Stack Developer with 5 years of experience
                 in crafting digital solutions that make a difference.
               </p>
               
               <p>
-                Based in Saint Denis, I've had the opportunity to work with diverse clients
+                Based in Saint Denis, I&apos;ve had the opportunity to work with diverse clients
                 ranging from startups to established enterprises. My expertise lies in
                 building scalable web applications that combine functionality with exceptional user experience.
               </p>
 
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing
                 to open-source projects, or sharing knowledge with the developer community.
               </p>
             </div>
