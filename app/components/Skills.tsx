@@ -20,10 +20,10 @@ const skillCategories = [
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", level: 85 },
-      { name: "Express", level: 80 },
-      { name: "MongoDB", level: 75 },
-      { name: "PostgreSQL", level: 70 },
+      { name: "Node.js", level: 90 },
+      { name: "Express", level: 20 },
+      { name: "MongoDB", level: 50 },
+      { name: "PostgreSQL", level: 20 },
     ],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,10 +34,10 @@ const skillCategories = [
   {
     title: "DevOps",
     skills: [
-      { name: "Docker", level: 75 },
-      { name: "AWS", level: 70 },
-      { name: "Git", level: 90 },
-      { name: "CI/CD", level: 80 },
+      { name: "Docker", level: 20 },
+      { name: "AWS", level: 10 },
+      { name: "Git", level: 97 },
+      { name: "CI/CD", level: 10},
     ],
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

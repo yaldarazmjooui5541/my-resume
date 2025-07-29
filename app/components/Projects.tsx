@@ -5,28 +5,28 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "EcoTrack Dashboard",
-    description: "A real-time analytics dashboard for environmental monitoring, built with Next.js and WebSocket for live data visualization.",
+    title: "StyleStep Store",
+    description: "A stylish online store for shoes and fashion items ,built with Next.js and Tailwind CSS, offering modern UI, smooth shopping experience, and dynamic cart management",
     image: "/Images/project.jpg",
-    tags: ["Next.js", "TypeScript", "TailwindCSS", "WebSocket"],
+    tags: ["Next.js", "TypeScript", "TailwindCSS", "React"],
     demoUrl: "#",
     githubUrl: "#",
     color: "from-emerald-500 to-teal-500"
   },
   {
-    title: "CryptoFlow",
-    description: "Cryptocurrency trading platform with advanced charting capabilities and real-time market data integration.",
+    title: "Yalda Resume",
+    description: "A personal portfolio website designed with Next.js and Tailwind CSS, showcasing skills,projects, and contact details in a modern and elegant layout tailored for computer engineers.",
     image: "/Images/project.jpg",
-    tags: ["React", "Node.js", "MongoDB", "WebSocket"],
+    tags: ["React", "Node.js", "TailwindCSS", "Next.js"],
     demoUrl: "#",
     githubUrl: "#",
     color: "from-blue-500 to-indigo-500"
   },
   {
-    title: "AI Content Studio",
-    description: "Content generation platform powered by AI, helping creators produce high-quality content efficiently.",
+    title: "JS Mastery Hub",
+    description: "An interactive learning platform for mastering JavaScript fundamentals, featuring hands-on code examples, mini projects, and a clean UI built with Next.js and Tailwind CSS.",
     image: "/Images/project.jpg",
-    tags: ["Next.js", "OpenAI", "PostgreSQL", "AWS"],
+    tags: ["JavaScript", "html", "CSS"],
     demoUrl: "#",
     githubUrl: "#",
     color: "from-purple-500 to-pink-500"

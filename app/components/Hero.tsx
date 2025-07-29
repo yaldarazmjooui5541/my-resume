@@ -26,23 +26,23 @@ export default function Hero() {
               transition={{ delay: 0.3 }}
               className="inline-block px-4 py-1.5 bg-purple-500/5 dark:bg-purple-500/10 text-purple-600 dark:text-purple-400 rounded-full text-sm font-medium mb-6"
             >
-              Full Stack Developer
+              computer Engineer
             </motion.span>
 
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-bold text-gray-800 dark:text-white leading-tight">
                 Hi, I&apos;m{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-indigo-600">
-                  Arthur Morgan
+               yalda razmjooui
                 </span>
               </h1>
             </div>
 
             {/* Description */}
             <p className="text-gray-600 dark:text-gray-300 text-lg lg:text-xl mt-8 mb-10 leading-relaxed max-w-2xl">
-              A passionate Full Stack Developer specializing in building
-              exceptional digital experiences that drive business growth and
-              user engagement.
+             A creative Frontend Developer dedicated to crafting beautiful,
+              responsive web interfaces that enhance user
+              experience and reflect modern design principles.
             </p>
 
             {/* CTA Buttons */}
@@ -112,7 +112,7 @@ export default function Hero() {
               </div>
               <div className="text-gray-500 dark:text-gray-400">
                 <span className="text-purple-600 dark:text-purple-400 font-semibold">
-                  50+
+                  20+
                 </span>{" "}
                 Projects Completed
               </div>

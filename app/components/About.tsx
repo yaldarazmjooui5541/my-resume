@@ -22,8 +22,8 @@ export default function About() {
               {/* Image Container */}
               <div className="relative rounded-lg overflow-hidden bg-white">
                 <Image
-                  src="/Images/me.png"
-                  alt="Arthur Morgan"
+                  src="/Images/yalda.jpg"
+                  alt="yalda razmjooui"
                   width={600}
                   height={700}
                   className="object-cover transition duration-300 group-hover:scale-105"
@@ -46,19 +46,22 @@ export default function About() {
 
             <div className="space-y-6 text-gray-600 dark:text-gray-300">
               <p>
-                Hello! I&apos;m Arthur Morgan, a Full Stack Developer with 5 years of experience
-                in crafting digital solutions that make a difference.
+                Hello! I&apos; Yalda Razmjooui, a passionate Frontend Developer with a strong background in
+                 designing and building interactive, user-focused web applications.
               </p>
               
               <p>
-                Based in Saint Denis, I&apos;ve had the opportunity to work with diverse clients
-                ranging from startups to established enterprises. My expertise lies in
-                building scalable web applications that combine functionality with exceptional user experience.
+               Based in Iran, I ve worked on a variety of creative and technical
+               projects—from personal portfolio sites to modern UI
+               dashboards and online stores. I specialize in turning complex ideas into clean,
+                responsive, and visually engaging digital experiences using technologies like React,
+                 Next.js, and Tailwind CSS.
               </p>
 
               <p>
-                When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing
-                to open-source projects, or sharing knowledge with the developer community.
+               When I am not coding, I enjoy exploring new design trends,
+                crafting unique UI concepts, and sharing
+                 my journey through tech with others in the developer and design community.
               </p>
             </div>
 
@@ -70,7 +73,7 @@ export default function About() {
               <div className="flex flex-wrap gap-3">
                 {[
                   'React', 'Next.js', 'TypeScript', 'Node.js', 
-                  'TailwindCSS', 'MongoDB', 'AWS', 'Docker'
+                  'TailwindCSS', 'MongoDB', 'Linux Basics', 'Python','App Inventor '
                 ].map((skill) => (
                   <motion.span 
                     key={skill}
@@ -88,12 +91,12 @@ export default function About() {
             {/* Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mt-12">
               {[
-                { number: '5+', label: 'Years', color: 'from-purple-600 to-indigo-600' },
-                { number: '50+', label: 'Projects', color: 'from-blue-600 to-cyan-600' },
-                { number: '30+', label: 'Clients', color: 'from-emerald-600 to-teal-600' },
-                { number: '99%', label: 'Success', color: 'from-orange-600 to-amber-600' }
+                { number: '2+', label: 'Years', color: 'from-purple-600 to-indigo-600' },
+                { number: '20+', label: 'Projects', color: 'from-blue-600 to-cyan-600' },
+                { number: '10+', label: 'Clients', color: 'from-emerald-600 to-teal-600' },
+                { number: '95%', label: 'Success', color: 'from-orange-600 to-amber-600' }
               ].map((stat) => (
-                <motion.div 
+                <motion.div
                   key={stat.label}
                   whileHover={{ y: -5 }}
                   className="p-4 rounded-lg bg-white dark:bg-gray-800 ring-1 ring-gray-200/50 
